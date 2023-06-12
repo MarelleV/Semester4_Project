@@ -85,7 +85,7 @@ void loop()
   Serial.println("Game starts with holding startbutton");
   do
   {
-    blinkLeds(green, 1);
+    blinkLeds(green, player1);
     // blinkLeds(yellow, 0);
     // blinkLeds(red, 0);
     // blinkLeds(yellow, 0);
